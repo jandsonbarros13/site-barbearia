@@ -1,0 +1,112 @@
+header {
+  background-color: rgb(224, 221, 221);
+  padding: 20px 0;
+}
+
+#logo {
+  margin-left: 100px;
+  left: 50%;
+  width: 18%;
+}
+
+.caixa {
+  position: relative;
+  width: 1365px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 120px;
+  left: 60%;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.produtos p:hover {
+  font-size: 30px;
+}
+
+.produtos li:hover h2 {
+  font-size: 40px;
+}
+
+.produtos li:hover {
+  border-color: red;
+  font-size: 40px;
+}
+
+.produtos li:active {
+  border-color: blue;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-preço {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+}
+
+.produto-descriçao {
+  font-size: 20px;
+  color: white;
+}
+
+.fundo-preços {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(224, 221, 221);
+  padding: 40px;
+}
+
+.copy {
+  color: black;
+  font-size: 25px;
+  margin: 20px 0 0;
+}
